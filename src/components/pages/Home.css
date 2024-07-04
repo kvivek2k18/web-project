@@ -1,0 +1,162 @@
+.donation_box {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .donation_taital {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  .mail_box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .mail_text {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .send_btn a {
+    display: inline-block;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .send_btn a:hover {
+    background-color: #0056b3;
+  }
+
+  .fundraise_main_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.box_main {
+    flex: 1 1 30%;
+    justify-content: space-evenly;
+    width:100%;
+    clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+    height: auto;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 30px 20px 70px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #120a78;
+    transition: transform 0.3s ease;
+}
+.box_main1{
+    background-color: brown;
+}
+.box_main:hover {
+    transform: scale(1.05);
+    background-color: brown;
+}
+.icon_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.icon_container img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+.volunteer_text {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: white;
+}
+.lorem_text {
+    font-size: 1em;
+    margin: 10px 0;
+    color: white;
+}
+.join_bt a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.join_bt a:hover {
+    background-color: #0056b3;
+}
+  @media (max-width: 768px) {
+    .donation_box {
+        flex: 1 1 100%;
+        padding: 15px;
+    }
+  
+    .donation_taital {
+      font-size: 1.3em;
+    }
+    .mail_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .mail_text {
+      padding: 8px;
+    }
+  
+    .send_btn a {
+      padding: 8px 16px;
+    }
+
+    .box_main {
+        flex: 1 1 100%;
+        max-width:60%;
+    }
+
+    .volunteer_text {
+        font-size: 1.3em;
+    }
+
+    .lorem_text {
+        font-size: 0.9em;
+    }
+
+    .join_bt a {
+        padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .donation_box {
+      padding: 10px;
+    }
+
+    .box_main {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .volunteer_text {
+        font-size: 1.2em;
+    }
+
+    .lorem_text {
+        font-size: 0.8em;
+    }
+
+    .join_bt a {
+        padding: 7px 14px;
+    }
+  }    
