@@ -3,10 +3,12 @@ import picknic_img1 from '../piknic/picknicImage/img-1.jpg'
 import picknic_img2 from '../piknic/picknicImage/img-2.jpg'
 import picknic_img3 from '../piknic/picknicImage/img-3.jpg'
 import { Link } from 'react-router-dom';
-import './BirthdaysDetails.css';
+import './PicknicDetails.css';
+import Footer from '../Footer';
 
-const BirthdaysDetails = () => {
+const PicknicDetails = () => {
   return (
+    <>
     <div className='birthdays_details'>
     <div className='birthdays_container'>
         <h3>Picnic Details</h3>
@@ -35,7 +37,9 @@ const BirthdaysDetails = () => {
         <Link to='/news'>Back</Link>
     </div>
 </div>
+<Footer/>
+</>
   )
 }
 
-export default BirthdaysDetails
+export default PicknicDetails

@@ -4,9 +4,11 @@ import yoga_img1 from '../yoga/yogaImages/img-1.jpg';
 import yoga_img2 from '../yoga/yogaImages/img-2.jpg';
 import yoga_img3 from '../yoga/yogaImages/img-3.jpg';
 import './YogaDetails.css';
+import Footer from '../Footer';
 
 const YogaDetails = () => {
   return (
+    <>
     <div className='yoga_details'>
         <div className='yoga_container'>
             <h3>Yoga Details</h3>
@@ -35,6 +37,8 @@ const YogaDetails = () => {
             <Link to='/news'>Back</Link>
         </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 

@@ -1,11 +1,11 @@
 .active{
-    background-color: rgb(197, 21, 21);
+    background-color: green;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:blueviolet;
+    background-color:#172554;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
     top:0;
@@ -19,6 +19,11 @@ nav .title{
     margin-left: 1rem;
     text-decoration: none;
     color: white;
+}
+nav .title_text{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
 }
 nav ul{
     display: flex;
@@ -36,21 +41,22 @@ nav ul li a{
     border-radius: 0.5rem;
 }
 nav ul li .event{ 
-    background-color:blueviolet;
+    background-color:#172554;
     font-size: 20px;
     padding: 0.9rem;
     margin: 0 0.5rem;
+    border: none;
     border-radius: 0.5rem;
     outline: none;
     color: white;
 }
 nav ul li .event:hover{
-    background-color: #172554;
+    background-color: rgb(197, 21, 21);
     cursor: pointer;
 }
 
 nav ul li a:not(.active):hover{
-    background-color: #172554;
+    background-color: rgb(197, 21, 21);
 }
 nav .menu{
     display: none;

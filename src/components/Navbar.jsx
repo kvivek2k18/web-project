@@ -17,6 +17,7 @@ const Navbar = () => {
             <Link to="/home" className='title'>
                 <img className='title' src={logo} alt='Not_found' />
             </Link>
+            <Link className='title_text'>MAITHIL ASSOCIATION OF AMERICA</Link>
             <div className='menu' onClick={() => {
                 setMenuOpen(!menuOpen);
             }}>
@@ -33,7 +34,7 @@ const Navbar = () => {
 
                 <li>
                     <select className='event' onChange={handleChange}>
-                        <option value="/news">Event</option>
+                        <option value="/home">Event</option>
                         <option value="/news">Past Event</option>
                         <option value="/upcoming">Upcoming Event</option>
                     </select>

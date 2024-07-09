@@ -10,57 +10,61 @@ import c_image7 from'../campaingns/campaingnsImage/img-7.jpg';
 import c_image8 from'../campaingns/campaingnsImage/img-8.jpg';
 import c_image9 from'../campaingns/campaingnsImage/img-9.jpg';
 import c_image10 from'../campaingns/campaingnsImage/img-10.jpg';
-import './EngagementImage.css';
+import './CampaingnsImages.css';
+import Footer from '../Footer';
 
-const EngagementImages = () => {
+const CampaingnsImages = () => {
   return (
-    <div className='engagement_Images'>
+    <>
+    <div className='campaingns_Images'>
         <h2>More Campaingns Images</h2>
-        <div className='engagementImage_container'>
-            <div className='engagementImage-main'>
+        <div className='campaingnsImage_container'>
+            <div className='campaingnsImage-main'>
                 <img src={c_image1} alt=''/>
             </div>
 
-            <div className='engagementImage-main'>
+            <div className='campaingnsImage-main'>
                 <img src={c_image2} alt=''/>
             </div>
 
-            <div className='engagementImage-main'>
+            <div className='campaingnsImage-main'>
                 <img src={c_image3} alt=''/>
             </div>
 
-            <div className='engagementImage-main'>
+            <div className='campaingnsImage-main'>
                 <img src={c_image4} alt=''/>
             </div>
 
-            <div className='engagementImage-main'>
+            <div className='campaingnsImage-main'>
                 <img src={c_image5} alt=''/>
             </div>
 
-            <div className='engagementImage-main'>
+            <div className='campaingnsImage-main'>
                 <img src={c_image6} alt=''/>
             </div>
 
-            <div className='engagementImage-main'>
+            <div className='campaingnsImage-main'>
                 <img src={c_image7} alt=''/>
             </div>
 
-            <div className='engagementImage-main'>
+            <div className='campaingnsImage-main'>
                 <img src={c_image8} alt=''/>
             </div>
 
-            <div className='engagementImage-main'>
+            <div className='campaingnsImage-main'>
                 <img src={c_image9} alt=''/>
             </div>
 
-            <div className='engagementImage-main'>
+            <div className='campaingnsImage-main'>
                 <img src={c_image10} alt=''/>
             </div>
             
         </div>
         <Link to='/news'>Back</Link>
     </div>
+    <Footer/>
+    </>
   )
 }
 
-export default EngagementImages
+export default CampaingnsImages

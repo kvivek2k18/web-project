@@ -9,10 +9,12 @@ import picnic_image6 from '../piknic/picknicImage/img-6.jpg';
 import picnic_image7 from '../piknic/picknicImage/img-7.jpg';
 import picnic_image8 from '../piknic/picknicImage/img-8.jpg';
 import picnic_image9 from '../piknic/picknicImage/img-9.jpg';
-import './BirthdaysImages.css';
+import './PicknicImages.css';
+import Footer from '../Footer';
 
-const BirthdaysImages = () => {
+const PicknicImages = () => {
   return (
+    <>
     <div className='birthdays_Images'>
     <h2> Picknic Images</h2>
     <div className='birthdaysImage_container'>
@@ -55,7 +57,9 @@ const BirthdaysImages = () => {
     </div>
     <Link to='/news'>Back</Link>
 </div>
+<Footer/>
+</>
   )
 }
 
-export default BirthdaysImages
+export default PicknicImages

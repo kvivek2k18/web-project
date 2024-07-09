@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom';
 import diwali_image1 from '../diwali/diwaliImages/img-5.jpg';
 import diwali_image2 from '../diwali/diwaliImages/img-6.jpg';
 import './DiwaliImages.css';
+import Footer from '../Footer';
 
 const DiwaliImages = () => {
   return (
+    <>
     <div className='diwali_Images'>
         <h2>Diwali Images</h2>
         <div className='diwaliImage_container'>
@@ -44,6 +46,8 @@ const DiwaliImages = () => {
         </div>
         <Link to='/news'>Back</Link>
     </div>
+    <Footer/>
+    </>
   )
 }
 

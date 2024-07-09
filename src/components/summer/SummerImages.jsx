@@ -7,11 +7,13 @@ import summer_image5 from '../summer/summerImage/img-5.jpg'
 import summer_image6 from '../summer/summerImage/img-6.jpg'
 import summer_image7 from '../summer/summerImage/img-7.jpg'
 import summer_image8 from '../summer/summerImage/img-8.jpg'
-import './BabyshowersImages.css';
+import './SummerImages.css';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer'
 
-const BabyshowersImages = () => {
+const SummerImages = () => {
   return (
+    <>
     <div className='babyshowers_Images'>
     <h2>Summer Images</h2>
     <div className='babyshowersImage_container'>
@@ -50,7 +52,9 @@ const BabyshowersImages = () => {
     </div>
     <Link to='/news'>Back</Link>
 </div>
+<Footer/>
+</>
   )
 }
 
-export default BabyshowersImages
+export default SummerImages

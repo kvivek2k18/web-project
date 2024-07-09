@@ -10,11 +10,13 @@ import s_image8 from '../saraswatiPuja/images/img-8.jpg'
 import s_image9 from '../saraswatiPuja/images/img-9.jpg'
 
 import { Link } from 'react-router-dom';
-import './WeddingImages.css';
-const WeddingImages = () => {
+import './SPojaImages.css';
+import Footer from '../Footer';
+const SPojaImages = () => {
   return (
+    <>
     <div className='wedding_Images'>
-        <h2>More Wedding Images</h2>
+        <h2>Saraswati Puja Images</h2>
         <div className='weddingImage_container'>
             <div className='weddingImage-main'>
                 <img src={s_image1} alt=''/>
@@ -55,7 +57,9 @@ const WeddingImages = () => {
         </div>
         <Link to='/news'>Back</Link>
     </div>
+    <Footer/>
+    </>
   )
 }
 
-export default WeddingImages
+export default SPojaImages

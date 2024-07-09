@@ -4,32 +4,32 @@
     box-sizing: border-box;
 }
 
-.engagement_Images {
+.campaingns_Images {
     padding: 20px;
     background-color: #f5f5f5;
     text-align: center;
 }
 
-.engagement_Images h2 {
+.campaingns_Images h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.engagementImage_container {
+.campaingnsImage_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
 }
 
-.engagementImage-main {
+.campaingnsImage-main {
     flex: 1 1 30%;
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease; /* Smooth transition */
 }
 
-.engagementImage-main img {
+.campaingnsImage-main img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -37,11 +37,11 @@
 }
 
 /* Image click effect */
-.engagementImage-main:hover {
+.campaingnsImage-main:hover {
     transform: scale(1.1); /* Increase image size by 10% */
 }
 
-.engagement_Images a {
+.campaingns_Images a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -52,45 +52,45 @@
     transition: background-color 0.3s ease;
 }
 
-.engagement_Images a:hover {
+.campaingns_Images a:hover {
     background-color: #0056b3;
 }
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
-    .engagement_Images h2 {
+    .campaingns_Images h2 {
         font-size: 1.8em;
     }
 
-    .engagementImage-main {
+    .campaingnsImage-main {
         flex: 1 1 45%;
     }
 }
 
 @media (max-width: 768px) {
-    .engagement_Images h2 {
+    .campaingns_Images h2 {
         font-size: 1.6em;
     }
 
-    .engagementImage_container {
+    .campaingnsImage_container {
         flex-direction: column;
     }
 
-    .engagementImage-main {
+    .campaingnsImage-main {
         flex: 1 1 100%;
     }
 }
 
 @media (max-width: 480px) {
-    .engagement_Images h2 {
+    .campaingns_Images h2 {
         font-size: 1.4em;
     }
 
-    .engagementImage-main img {
+    .campaingnsImage-main img {
         border-radius: 5px;
     }
 
-    .engagement_Images a {
+    .campaingns_Images a {
         padding: 8px 16px;
     }
 }
