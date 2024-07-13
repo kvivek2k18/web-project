@@ -15,42 +15,42 @@ import Footer from '../Footer';
 const PicknicImages = () => {
   return (
     <>
-    <div className='birthdays_Images'>
+    <div className='picknics_Images'>
     <h2> Picknic Images</h2>
-    <div className='birthdaysImage_container'>
-        <div className='birthdaysImage-main'>
+    <div className='picknicsImage_container'>
+        <div className='picknicsImage-main'>
             <img src={picnic_image1} alt=''/>
         </div>
 
-        <div className='birthdaysImage-main'>
+        <div className='picknicsImage-main'>
             <img src={picnic_image2} alt=''/>
         </div>
 
-        <div className='birthdaysImage-main'>
+        <div className='picknicsImage-main'>
             <img src={picnic_image3} alt=''/>
         </div>
 
-        <div className='birthdaysImage-main'>
+        <div className='picknicsImage-main'>
             <img src={picnic_image4} alt=''/>
         </div>
 
-        <div className='birthdaysImage-main'>
+        <div className='picknicsImage-main'>
             <img src={picnic_image5} alt=''/>
         </div>
 
-        <div className='birthdaysImage-main'>
+        <div className='picknicsImage-main'>
             <img src={picnic_image6} alt=''/>
         </div>
 
-        <div className='birthdaysImage-main'>
+        <div className='picknicsImage-main'>
             <img src={picnic_image7} alt=''/>
         </div>
 
-        <div className='birthdaysImage-main'>
+        <div className='picknicsImage-main'>
             <img src={picnic_image8} alt=''/>
         </div>
 
-        <div className='birthdaysImage-main'>
+        <div className='picknicsImage-main'>
             <img src={picnic_image9} alt=''/>
         </div>
         

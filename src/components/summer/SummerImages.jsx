@@ -14,38 +14,38 @@ import Footer from '../Footer'
 const SummerImages = () => {
   return (
     <>
-    <div className='babyshowers_Images'>
+    <div className='summer_Images'>
     <h2>Summer Images</h2>
-    <div className='babyshowersImage_container'>
-        <div className='babyshowersImage-main'>
+    <div className='summerImage_container'>
+        <div className='summerImage-main'>
             <img src={summer_image1} alt=''/>
         </div>
 
-        <div className='babyshowersImage-main'>
+        <div className='summerImage-main'>
             <img src={summer_image2} alt=''/>
         </div>
 
-        <div className='babyshowersImage-main'>
+        <div className='summerImage-main'>
             <img src={summer_image3} alt=''/>
         </div>
 
-        <div className='babyshowersImage-main'>
+        <div className='summerImage-main'>
             <img src={summer_image4} alt=''/>
         </div>
 
-        <div className='babyshowersImage-main'>
+        <div className='summerImage-main'>
             <img src={summer_image5} alt=''/>
         </div>
 
-        <div className='babyshowersImage-main'>
+        <div className='summerImage-main'>
             <img src={summer_image6} alt=''/>
         </div>
 
-        <div className='babyshowersImage-main'>
+        <div className='summerImage-main'>
             <img src={summer_image7} alt=''/>
         </div>
 
-        <div className='babyshowersImage-main'>
+        <div className='summerImage-main'>
             <img src={summer_image8} alt=''/>
         </div>
         

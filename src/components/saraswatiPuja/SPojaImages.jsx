@@ -15,42 +15,42 @@ import Footer from '../Footer';
 const SPojaImages = () => {
   return (
     <>
-    <div className='wedding_Images'>
+    <div className='spoja_Images'>
         <h2>Saraswati Puja Images</h2>
-        <div className='weddingImage_container'>
-            <div className='weddingImage-main'>
+        <div className='spojaImage_container'>
+            <div className='spojaImage-main'>
                 <img src={s_image1} alt=''/>
             </div>
 
-            <div className='weddingImage-main'>
+            <div className='spojaImage-main'>
                 <img src={s_image2} alt=''/>
             </div>
 
-            <div className='weddingImage-main'>
+            <div className='spojaImage-main'>
                 <img src={s_image3} alt=''/>
             </div>
 
-            <div className='weddingImage-main'>
+            <div className='spojaImage-main'>
                 <img src={s_image4} alt=''/>
             </div>
 
-            <div className='weddingImage-main'>
+            <div className='spojaImage-main'>
                 <img src={s_image5} alt=''/>
             </div>
 
-            <div className='weddingImage-main'>
+            <div className='spojaImage-main'>
                 <img src={s_image6} alt=''/>
             </div>
 
-            <div className='weddingImage-main'>
+            <div className='spojaImage-main'>
                 <img src={s_image7} alt=''/>
             </div>
 
-            <div className='weddingImage-main'>
+            <div className='spojaImage-main'>
                 <img src={s_image8} alt=''/>
             </div>
 
-            <div className='weddingImage-main'>
+            <div className='spojaImage-main'>
                 <img src={s_image9} alt=''/>
             </div>
             

@@ -4,32 +4,32 @@
     box-sizing: border-box;
 }
 
-.birthdays_Images {
+.picknics_Images {
     padding: 20px;
     background-color: #f5f5f5;
     text-align: center;
 }
 
-.birthdays_Images h2 {
+.picknics_Images h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.birthdaysImage_container {
+.picknicsImage_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
 }
 
-.birthdaysImage-main {
+.picknicsImage-main {
     flex: 1 1 30%;
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease; /* Smooth transition */
 }
 
-.birthdaysImage-main img {
+.picknicsImage-main img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -37,11 +37,11 @@
 }
 
 /* Image click effect */
-.birthdaysImage-main:hover {
+.picknicsImage-main:hover {
     transform: scale(1.1); /* Increase image size by 10% */
 }
 
-.birthdays_Images a {
+.picknics_Images a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -52,31 +52,31 @@
     transition: background-color 0.3s ease;
 }
 
-.birthdays_Images a:hover {
+.picknics_Images a:hover {
     background-color: #0056b3;
 }
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
-    .birthdays_Images h2 {
+    .picknics_Images h2 {
         font-size: 1.8em;
     }
 
-    .birthdaysImage-main {
+    .picknicsImage-main {
         flex: 1 1 45%;
     }
 }
 
 @media (max-width: 768px) {
-    .birthdays_Images h2 {
+    .picknics_Images h2 {
         font-size: 1.6em;
     }
 
-    .birthdaysImage_container {
+    .picknicsImage_container {
         flex-direction: column;
     }
 
-    .birthdaysImage-main {
+    .picknicsImage-main {
         flex: 1 1 100%;
     }
 }

@@ -9,8 +9,8 @@ import Footer from '../Footer';
 const SummerDetails = () => {
   return (
     <>
-    <div className='babyshowers_details'>
-        <div className='babyshowers_container'>
+    <div className='summer_details'>
+        <div className='summer_container'>
             <h3>Summer Details</h3>
             <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
@@ -19,18 +19,18 @@ const SummerDetails = () => {
              It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
-            <div className='babyshowers_main'>
+            <div className='summer_main'>
                 <span>Date: 25 May 2024</span>
                 <span>Time: 5 PM</span>
-                <div className='babyshowers_img'>
+                <div className='summer_img'>
                     <img src={summer_img1} alt=''/>
                 </div>
 
-                <div className='babyshowers_img'>
+                <div className='summer_img'>
                     <img src={summer_img2} alt=''/>
                 </div>
 
-                <div className='babyshowers_img'>
+                <div className='summer_img'>
                     <img src={summer_img3} alt=''/>
                 </div>
             </div>

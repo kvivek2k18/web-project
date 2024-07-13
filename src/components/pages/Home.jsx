@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect,  } from 'react'
 import SliderImages from '../sliderImage/SliderImages';
 import SliderContent from '../sliderImage/SliderContent';
 import Arrows from '../sliderImage/Arrows';
@@ -8,7 +8,6 @@ import icon_1 from '../images/icon-1.png';
 import icon_2 from '../images/icon-2.png';
 import icon_3 from '../images/icon-3.png';
 import './Home.css';
-import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
 import OurValue from './OurValue';
 import Footer from '../Footer';
@@ -16,7 +15,7 @@ import Footer from '../Footer';
 const len = SliderImages.length - 1;
 const Home = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const form=useRef();
+  // const form=useRef();
 
   useEffect(() => {
     const interval = setInterval(() => {

@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-.birthdays_details {
+.picknics_details {
     padding: 20px;
     background-color: #f5f5f5;
 }
 
-.birthdays_container {
+.picknics_container {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -18,48 +18,48 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.birthdays_container h3 {
+.picknics_container h3 {
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.birthdays_container p {
+.picknics_container p {
     font-size: 1.2em;
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: justify;
 }
 
-.birthdays_main {
+.picknics_main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
 }
 
-.birthdays_main span {
+.picknics_main span {
     flex: 1 1 100%;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
-.birthdays_img {
+.picknics_img {
     flex: 1 1 30%;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.birthdays_img img {
+.picknics_img img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-.birthdays_img img:hover {
+.picknics_img img:hover {
     transform: scale(1.2);
 }
 
-.birthdays_details a {
+.picknics_details a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -70,65 +70,65 @@
     transition: background-color 0.3s ease;
 }
 
-.birthdays_details a:hover {
+.picknics_details a:hover {
     background-color: #0056b3;
 }
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
-    .birthdays_container {
+    .picknics_container {
         padding: 15px;
     }
 
-    .birthdays_container h3 {
+    .picknics_container h3 {
         font-size: 1.8em;
     }
 
-    .birthdays_container p {
+    .picknics_container p {
         font-size: 1.1em;
     }
 
-    .birthdays_main span {
+    .picknics_main span {
         font-size: 1.1em;
     }
 }
 
 @media (max-width: 768px) {
-    .birthdays_container {
+    .picknics_container {
         padding: 10px;
     }
 
-    .birthdays_container h3 {
+    .picknics_container h3 {
         font-size: 1.6em;
     }
 
-    .birthdays_container p {
+    .picknics_container p {
         font-size: 1em;
     }
 
-    .birthdays_main {
+    .picknics_main {
         flex-direction: column;
     }
 
-    .birthdays_main span {
+    .picknics_main span {
         font-size: 1em;
     }
 
-    .birthdays_img {
+    .picknics_img {
         flex: 1 1 100%;
     }
 }
 
 @media (max-width: 480px) {
-    .birthdays_container h3 {
+    .picknics_container h3 {
         font-size: 1.4em;
     }
 
-    .birthdays_container p {
+    .picknics_container p {
         font-size: 0.9em;
     }
 
-    .birthdays_main span {
+    .picknics_main span {
         font-size: 0.9em;
     }
 }
