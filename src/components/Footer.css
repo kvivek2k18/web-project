@@ -58,6 +58,7 @@
   display: flex;
   justify-content: center;
   margin-top: 0px;
+  margin-left: 40px;
 }
 .social a {
   margin: 0 10px;

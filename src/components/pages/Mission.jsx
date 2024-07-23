@@ -1,8 +1,8 @@
 import React from 'react'
-import child_img from '../images/childEducation_img.jpg';
-import mission_img from '../campaingns/campaingnsImage/img-7.jpg';
-import medical_img from '../images/medical_img.jpeg';
-import water_img from '../images/water.jpg';
+// import child_img from '../images/childEducation_img.jpg';
+import mission_img from '../images/Mission.jpg';
+// import medical_img from '../images/medical_img.jpeg';
+// import water_img from '../images/water.jpg';
 import './Mission.css';
 import Footer from '../Footer';
 const Mission = () => {
@@ -11,13 +11,24 @@ const Mission = () => {
       <div className='mission_section'>
         <div className='text_container'>
           <h2 className='mission_taital'>Our Mission</h2>
-          <p className='mission_text'>
+          {/* <p className='mission_text'>
             We are commited to enhancing the cultural, education, fitness aspects within our community. Through our educational program
             'Gurukul', we aim to empower Maithil youth with access to equality education and skill development opportunities, nurturing the leaders
             of tomorrow for our community. At MAA, we uphold the principles of selfless service and transparency, ensuring that every initiative is
             driven by the collective spirit of our members. The organization's motive is to unite the Maithil diaspora to preserve our heritage.
             We invite you to jion us in preserving and celebrating our virant Maithil identity. Together, let's stand tail as proud Maithils and make
             a meaningful difference in promoting our heritage for generations to come.
+          </p> */}
+
+          <p className='mission_text'>
+            We are dedicated to establishing a dynamic platform that brings together all Maithils residing in the United States.
+            Our aim is to foster a robust community and instill a collective sense of cultural pride. Our primary objective is to 
+            heighten awareness of and advocate for the bountiful heritage of Maithili culture through this platform.
+          </p>
+          <p className='mission_text'>
+            This nonsectarian undertaking aims to re-establish connections with our ancestral heritage, conserve our profound cultural
+            inheritance, and contribute to the prosperity of the Mithila region. Collectively, we endeavor to safeguard the endurance and 
+            and prosperity of our mutual heritage for future generations.
           </p>
         </div>
         <div className='image_container'>
@@ -26,7 +37,7 @@ const Mission = () => {
           </div>
         </div>
 
-        <div className='mission_container'>
+        {/* <div className='mission_container'>
           <div className='mission'>
             <img src={child_img} alt='' />
             <h2>Child Education</h2>
@@ -53,7 +64,7 @@ const Mission = () => {
             </p>
           </div>
           
-        </div>
+        </div> */}
         
       </div>
       <Footer />

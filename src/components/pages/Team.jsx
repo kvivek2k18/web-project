@@ -1,22 +1,24 @@
 import React from 'react'
-import logo from '../images/profile_pic.jpg';
-import { FaTwitter,FaFacebook,FaInstagram,FaYoutube } from "react-icons/fa";
+import team1 from '../images/Team-1.jpg';
+import team2 from '../images/Team-2.jpg';
+import team3 from '../images/Team-3.jpg';
+// import { FaTwitter,FaFacebook,FaInstagram,FaYoutube } from "react-icons/fa";
 import './Team.css';
 const Team = () => {
   return (
     <div className='team_section'>
-        <h2>The Team Behind Pacifico</h2>
-        <p>Lets's Meet with Our Ordinary Solidiers</p>
+        <h2>The Team Behind </h2>
+        {/* <p>Lets's Meet with Our Ordinary Solidiers</p> */}
         <div className='team_container'>
             <div className='team_info'>
-                <img src={logo} alt=''/>
-                <h3>JONATHAN HADWICK</h3>
-                <h4>Head of SEO</h4>
-                <p>
+                <img src={team1} alt=''/>
+                <h3>Shailesh Jha</h3>
+                <h4>President & BoD</h4>
+                {/* <p>
                 It is a long established fact that a reader will be distracted by 
                 It is a long established fact that a reader will be distracted by 
                 It is a long established fact that a reader will be distracted by 
-                </p>
+                </p> */}
             {/* <ul className='team_icon'>
                 <li>
                     <a href='#' className='blue_icon'>
@@ -46,14 +48,14 @@ const Team = () => {
             </div>
 
             <div className='team_info'>
-                <img src={logo} alt=''/>
-                <h3>JONATHAN HADWICK</h3>
-                <h4>Head of SEO</h4>
-                <p>
+                <img src={team2} alt=''/>
+                <h3>Minakshi Jha</h3>
+                <h4>Vice President & BoD</h4>
+                {/* <p>
                 It is a long established fact that a reader will be distracted by 
                 It is a long established fact that a reader will be distracted by 
                 It is a long established fact that a reader will be distracted by 
-                </p>
+                </p> */}
             {/* <ul className='team_icon'>
             <li>
                     <a href='#' className='blue_icon'>
@@ -83,14 +85,14 @@ const Team = () => {
             </div>
 
             <div className='team_info'>
-                <img src={logo} alt=''/>
-                <h3>JONATHAN HADWICK</h3>
-                <h4>Head of SEO</h4>
-                <p>
+                <img src={team3} alt=''/>
+                <h3>Saroj Jha</h3>
+                <h4>BoD</h4>
+                {/* <p>
                 It is a long established fact that a reader will be distracted by 
                 It is a long established fact that a reader will be distracted by 
                 It is a long established fact that a reader will be distracted by 
-                </p>
+                </p> */}
             {/* <ul className='team_icon'>
             <li>
                     <a href='#' className='blue_icon'>

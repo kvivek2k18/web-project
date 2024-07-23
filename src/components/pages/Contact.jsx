@@ -9,13 +9,14 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_oo7nm39', 'template_9qwezrf', form.current, {
-        publicKey: 'E1dNSPY6-yRIvR3I0',
+      .sendForm('service_dhn3p7d', 'template_kfh4uv5', form.current, {
+        publicKey: 'ydmylEA6Myx7EDLCP',
       })
       .then(
         (result) => {
           console.log('SUCCESS!', result.text);
           alert("sucessfully sent");
+          e.target.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -28,10 +29,22 @@ const Contact = () => {
       <div className='main_container'>
         <div className='contact-box'>
           <div className='left'>
-            <h2>Contact Us</h2>
+          <h2>Contact Us</h2>
             <p>
-              We would love to hear some feedback form you! Feel free to ask a question, drop a review, or just say hello.
-              You can use either the form or contact details below.
+              We are here to assist you! if you have questions or feedback or need support, please contact us using any of the methods below.
+            </p>
+            <p>
+              1. Please email us at: contributemaa@maithilusa.org
+            </p>
+            <p>
+              2. You can reach us at: maithilmaithili11@gmail.com
+            </p>
+            <p>
+              3. You can send us mail at the following address: <p> 35783 Cabral Dr Fremont, USA</p>
+            </p>
+            <p>
+              4. Please feel free to use the form below to directly message us. Please fill out all the fields, and we will respond to Your
+              inquiry as soon as possible.
             </p>
             <form action='' ref={form} onSubmit={sendEmail}>
               <input type='text' name="user_name" className='field' placeholder='Enter Your Name' required />
@@ -43,10 +56,12 @@ const Contact = () => {
           </div>
 
           <div className='right'>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30872341.036273014!2d-144.88585912425174!3d35.42460590897897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2sin!4v1719659577351!5m2!1sen!2sin"
-              style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13084048.037443183!2d-129.9353941707524!3d36.810188062694316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2sin!4v1721708858687!5m2!1sen!2sin"
+            style={{border: 0}} 
+            title="Google Maps: California, USA"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-
+          <p className='disclaimer_text'>We value your feedback and suggestions. Please share your thoughts with us to help us improve our services.</p>
         </div>
       </div>
       <Footer/>
@@ -55,4 +70,3 @@ const Contact = () => {
 }
 
 export default Contact;
-

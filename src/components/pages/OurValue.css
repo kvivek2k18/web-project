@@ -22,7 +22,6 @@
   .about_taital {
     width: 100%;
     font-size: 40px;
-    text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 3px;
     color: white;
@@ -30,22 +29,22 @@
   .about_who {
     width: 100%;
     font-size: 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 1px;
-    color: red;
+    color: white;
   }
-  .about_text {
+  .ourValue_text {
     width: 100%;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     color: white;
   }
-  .who_text p{
+  .who_text {
     width: 100%;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 30px;
+    line-height: 20px;
     color: white
   }
   .readmore_btn {
@@ -69,6 +68,7 @@
     background-color: #0056b3;
   }
   .about_img{
+    padding-top: 150px;
     width: 100%;
     float: left;
   }
@@ -84,8 +84,8 @@
     .about_taital {
       font-size: 1.5em;
     }
-    .about_text {
-        font-size: 0.9em;
+    .ourValue_text {
+        font-size: 1em;
       }
     
       .readmore_btn a {
@@ -101,8 +101,8 @@
       font-size: 1.2em;
     }
   
-    .about_text {
-      font-size: 0.8em;
+    .ourValue_text {
+      font-size: 0.9em;
     }
   
     .readmore_btn a {

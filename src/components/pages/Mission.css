@@ -23,14 +23,15 @@
   .mission_taital {
     width: 100%;
     font-size: 40px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: bold;
     margin-bottom: 20px;
     color: white;
   }
   .mission_text {
+    margin-top: 10px;
     width: 100%;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     color: white;
   }
@@ -112,7 +113,7 @@
       font-size: 1.5em;
     }
     .mission_text {
-        font-size: 0.9em;
+        font-size: 1em;
       }
     
       .readmore_btn a {
@@ -146,7 +147,7 @@
     }
   
     .mission_text {
-      font-size: 0.8em;
+      font-size: 0.9em;
     }
   
     .readmore_btn a {
