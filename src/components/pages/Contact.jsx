@@ -34,16 +34,19 @@ const Contact = () => {
               We are here to assist you! if you have questions or feedback or need support, please contact us using any of the methods below.
             </p>
             <p>
-              1. Please email us at: contributemaa@maithilusa.org and you can donate via Zelle: maithilformithila@gmail.com
+              1. You can donate via Zelle: maithilformithila@gmail.com
             </p>
             <p>
-              2. You can reach us at: maithilmaithili11@gmail.com
+              2. Please email us at: contributemaa@maithilusa.org 
             </p>
             <p>
-              3. You can send us mail at the following address: <p> 35783 Cabral Dr Fremont, USA</p>
+              3. You can reach us at: maithilmaithili11@gmail.com
             </p>
             <p>
-              4. Please feel free to use the form below to directly message us. Please fill out all the fields, and we will respond to Your
+              4. You can send us mail at the following address: <p> 35783 Cabral Dr Fremont, USA</p>
+            </p>
+            <p>
+              5. Please feel free to use the form below to directly message us. Please fill out all the fields, and we will respond to Your
               inquiry as soon as possible.
             </p>
             <form action='' ref={form} onSubmit={sendEmail}>

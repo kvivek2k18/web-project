@@ -55,7 +55,7 @@
     justify-content: space-evenly;
     width:100%;
     clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
-    /* height: auto; */
+    /* height: 500px; */
     margin: 15px;
     text-align: center;
     border: 1px solid #ddd;
@@ -63,7 +63,10 @@
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #120a78;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    z-index: 1; 
 }
 .box_main1{
     background-color: brown;
@@ -103,10 +106,13 @@
     margin-top: 75px;
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s;
+    /* transition: background-color 0.3s; */
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 2;
 }
 .join_bt a:hover {
-    background-color: #0056b3;
+    background-color: green;
 }
   @media (max-width: 768px) {
     .donation_box {

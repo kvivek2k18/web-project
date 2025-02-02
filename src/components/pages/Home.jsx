@@ -61,7 +61,6 @@ const Home = (props) => {
               <img src={icon_1} alt='' />
             </div>
             <h4 className='volunteer_text'>Become a Volunteer</h4>
-            
             <div className='join_bt'>
               <Link to='/contact_page'>Volunteer</Link>
             </div>
