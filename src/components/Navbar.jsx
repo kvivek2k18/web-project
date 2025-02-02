@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
-import { Link, NavLink} from 'react-router-dom';
+import { Link, NavLink,useNavigate} from 'react-router-dom';
 import logo from './images/Mithila_logo.jpeg'
 import { FiAlignJustify } from "react-icons/fi";
 import { MdCancel } from "react-icons/md";
 import './Navbar.css';
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
-    // const handleChange = (event) => {
-    //     navigate(event.target.value);
-    // };
+    const handleChange = (event) => {
+        navigate(event.target.value);
+    };
 
     return (
         <nav>

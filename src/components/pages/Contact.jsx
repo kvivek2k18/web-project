@@ -34,7 +34,7 @@ const Contact = () => {
               We are here to assist you! if you have questions or feedback or need support, please contact us using any of the methods below.
             </p>
             <p>
-              1. Please email us at: contributemaa@maithilusa.org
+              1. Please email us at: contributemaa@maithilusa.org and you can donate via Zelle: maithilformithila@gmail.com
             </p>
             <p>
               2. You can reach us at: maithilmaithili11@gmail.com
