@@ -32,13 +32,13 @@ const Navbar = () => {
                     <NavLink to="/about">About Us</NavLink>
                 </li>
 
-                {/* <li>
+                <li>
                     <select className='event' onChange={handleChange}>
                         <option value="/home">Event</option>
                         <option value="/news">Past Event</option>
                         <option value="/upcoming">Upcoming Event</option>
                     </select>
-                </li> */}
+                </li>
 
                 <li>
                     <NavLink to="/our Mission">Our Mission</NavLink>
