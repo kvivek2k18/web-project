@@ -4,6 +4,8 @@ import yoga_image1 from '../yoga/yogaImages/img-1.jpg';
 import yoga_image2 from '../yoga/yogaImages/img-2.jpg';
 import yoga_image3 from '../yoga/yogaImages/img-3.jpg';
 import yoga_image4 from '../yoga/yogaImages/img-4.jpg';
+import yoga_image5 from '../yoga/yogaImages/img-5.jpg';
+import yoga_image6 from '../yoga/yogaImages/img-1.jpg';
 import './YogaImages.css';
 import Footer from '../Footer';
 
@@ -29,21 +31,13 @@ const YogaImages = () => {
                 <img src={yoga_image4} alt=''/>
             </div>
 
-            {/* <div className='yogaImage-main'>
-                <img src={yoga_image} alt=''/>
+            <div className='yogaImage-main'>
+                <img src={yoga_image5} alt=''/>
             </div>
 
-            <div className='yogaImage-main'>
-                <img src={yoga_image} alt=''/>
+             <div className='yogaImage-main'>
+                <img src={yoga_image6} alt=''/>
             </div>
-
-            <div className='yogaImage-main'>
-                <img src={yoga_image} alt=''/>
-            </div>
-
-            <div className='yogaImage-main'>
-                <img src={yoga_image} alt=''/>
-            </div> */}
             
         </div>
         <Link to='/news'>Back</Link>

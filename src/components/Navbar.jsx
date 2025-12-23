@@ -50,11 +50,10 @@ const Navbar = () => {
                 </li>
 
                
-                {/* <li>
-           <Link to='/donate' className='donate_btn'>
-            Donate Now 
-            </Link>
-           </li> */}
+                <li>
+                      <NavLink to='/donate' className='donate_btn'> Donate Now </NavLink>
+                </li>
+
             </ul>
 
         </nav>

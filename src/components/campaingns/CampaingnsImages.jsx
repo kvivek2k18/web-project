@@ -9,7 +9,6 @@ import c_image6 from'../campaingns/campaingnsImage/img-6.jpg';
 import c_image7 from'../campaingns/campaingnsImage/img-7.jpg';
 import c_image8 from'../campaingns/campaingnsImage/img-8.jpg';
 import c_image9 from'../campaingns/campaingnsImage/img-9.jpg';
-import c_image10 from'../campaingns/campaingnsImage/img-10.jpg';
 import './CampaingnsImages.css';
 import Footer from '../Footer';
 
@@ -53,10 +52,6 @@ const CampaingnsImages = () => {
 
             <div className='campaingnsImage-main'>
                 <img src={c_image9} alt=''/>
-            </div>
-
-            <div className='campaingnsImage-main'>
-                <img src={c_image10} alt=''/>
             </div>
             
         </div>

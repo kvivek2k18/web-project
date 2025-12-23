@@ -22,7 +22,7 @@ const Footer = () => {
               {/* <li><Link to='/news'>Events</Link></li> */}
               <li><Link to='/our Mission'>Our Missison</Link></li>
               <li><Link to='/contact us'>Contact Us</Link></li>
-              {/* <li><Link to='/donate'>Donate</Link></li> */}
+              <li><Link to='/donate'>Donate Us</Link></li>
             </ul>
           </div>
 

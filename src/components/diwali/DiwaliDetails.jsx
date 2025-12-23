@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import diwali_img1 from '../diwali/diwaliImages/img-5.jpg';
-import diwali_img2 from '../diwali/diwaliImages/img-6.jpg';
+import diwali_img1 from '../diwali/diwaliImages/Img-1.jpg';
+import diwali_img2 from '../diwali/diwaliImages/Img-2.jpg';
+import diwali_img3 from '../diwali/diwaliImages/Img-3.jpg';
+import diwali_img4 from '../diwali/diwaliImages/Img-4.jpg';
+import diwali_img5 from '../diwali/diwaliImages/Img-7.jpg';
+import diwali_img6 from '../diwali/diwaliImages/Img-8.jpg';
 import './DiwaliDetails.css';
 import Footer from '../Footer';
 
@@ -12,15 +16,14 @@ const DiwaliDetails = () => {
         <div className='diwali_container'>
             <h3>Diwali Details</h3>
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-             It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Another fantastic and memorable Diwali Party hosted by MAA! MAA would like to extend its heartfelt gratitude
+             and thanks to everyone who participated. From the Maithili Naatak and the kids’ 
+             performance on fire safety to the wonderful singing, dancing, and many other memorable acts, 
+             it was the perfect evening to celebrate the festival of lights and spend time with loved ones and our community. 
+             Thank you all once again for making the event a great success!
             </p>
             <div className='diwali_main'>
-                <span>Date: 25 May 2024</span>
-                <span>Time: 5 PM</span>
+                <span>Date: 18 Oct 2025</span>
                 <div className='diwali_img'>
                     <img src={diwali_img1} alt=''/>
                 </div>
@@ -30,7 +33,19 @@ const DiwaliDetails = () => {
                 </div>
 
                 <div className='diwali_img'>
-                    <img src={diwali_img1} alt=''/>
+                    <img src={diwali_img3} alt=''/>
+                </div>
+
+                 <div className='diwali_img'>
+                    <img src={diwali_img4} alt=''/>
+                </div>
+
+                 <div className='diwali_img'>
+                    <img src={diwali_img5} alt=''/>
+                </div>
+
+                 <div className='diwali_img'>
+                    <img src={diwali_img6} alt=''/>
                 </div>
             </div>
             <Link to='/news'>Back</Link>

@@ -2,6 +2,9 @@ import React from 'react'
 import simage_img1 from '../saraswatiPuja/images/img-1.jpg';
 import simage_img2 from '../saraswatiPuja/images/img-2.jpg';
 import simage_img3 from '../saraswatiPuja/images/img-3.jpg';
+import simage_img4 from '../saraswatiPuja/images/img-4.jpg';
+import simage_img5 from '../saraswatiPuja/images/img-5.jpg';
+import simage_img6 from '../saraswatiPuja/images/img-6.jpg';
 import { Link } from 'react-router-dom';
 import './SPojaDetails.css';
 import Footer from '../Footer';
@@ -12,15 +15,13 @@ const SPojaDetails = () => {
         <div className='spoja_container'>
             <h3>Saraswati Puja Details</h3>
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-             It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              MAA hosted its first grand and marvelous Saraswati Pooja on February 2nd. The pooja was conducted entirely by children, who fasted, chanted all the mantras, and performed the rituals with devotion and precision. It was a deeply enriching experience for them, as they had the opportunity to witness and engage with our Hindu culture firsthand.
+              This event would not have been possible without our dedicated volunteers, and the best part was that the majority of them were children. What a wonderful way to honor Maa Saraswati! A heartfelt appreciation goes out to all the volunteers who participated in prasad preparation (buniya), decoration, organizing children's activities (kite flying and the drawing competition), and much more. 
+              A big round of applause to our guru, Ajit Jha Ji, for taking the initiative to make the pooja both enjoyable and memorable for the children. He has truly instilled a deep sense of cultural pride in their hearts.
+             Last but not least, a sincere thank you to our new and continuing members. Your support is the foundation of our success. Thank you to each and every one of you for joining us and making this event a grand success!
             </p>
             <div className='spoja_main'>
-                <span>Date: 25 May 2024</span>
-                <span>Time: 5 PM</span>
+                <span>Date: 2 Febuary 2025</span>
                 <div className='spoja_img'>
                     <img src={simage_img1} alt=''/>
                 </div>
@@ -31,6 +32,18 @@ const SPojaDetails = () => {
 
                 <div className='spoja_img'>
                     <img src={simage_img3} alt=''/>
+                </div>
+
+                 <div className='spoja_img'>
+                    <img src={simage_img4} alt=''/>
+                </div>
+
+                 <div className='spoja_img'>
+                    <img src={simage_img5} alt=''/>
+                </div>
+
+                 <div className='spoja_img'>
+                    <img src={simage_img6} alt=''/>
                 </div>
             </div>
             <Link to='/news'>Back</Link>

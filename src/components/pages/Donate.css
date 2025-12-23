@@ -1,150 +1,121 @@
-.testimonial-slider {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:aquamarine;
-    height: 100vh;
-    margin-top: 10px;
-  }
-  .testimonial-slider h2 {
-    padding-top: 20px;
-    font-size: 2em;
-  }
-  .testimonial-slider h4 {
-    font-size: 1.2em;
-    margin-bottom: 25px;
-    color: #777;
-  }
-  .testimonial-container {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: absolute;
+/* =========================
+   MAIN PAGE CONTAINER
+========================= */
+.donate_container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #707b86;
+
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* =========================
+   DONATE BOX (ONE BOX)
+========================= */
+.donate {
+  background: #ffffff;
+  width: 100%;
+  max-width: 900px;
+
+  padding: 30px;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   HEADING
+========================= */
+.donate h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   TEXT
+========================= */
+.donate p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 15px;
+  max-width: 800px;
+}
+
+/* =========================
+   QR IMAGE
+========================= */
+.donate img {
+  margin-top: 20px;
+  width: 300px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+/* 📱 Mobile */
+@media (max-width: 576px) {
+  .donate {
     padding: 20px;
-    margin-top: 100px;
-    border: 1px solid red;
-    background-color: transparent;
   }
-  .testimonial-container:hover{
-    background-color: blue;
-    color: white;
+
+  .donate h2 {
+    font-size: 20px;
   }
-  .testimonial-content {
-    margin-bottom: 20px;
+
+  .donate p {
+    font-size: 14px;
   }
-  .testimonial-content img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+
+  .donate img {
+    width: 150px;
   }
-  .testimonial-content p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
+}
+
+/* 📲 Tablet */
+@media (min-width: 577px) and (max-width: 768px) {
+  .donate h2 {
+    font-size: 22px;
   }
-  .testimonial-content h4 {
-    font-size: 1.5em;
-    margin: 10px 0;
+
+  .donate img {
+    width: 180px;
   }
-  .testimonial-controls {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
+}
+
+/* 💻 Laptop */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .donate h2 {
+    font-size: 24px;
   }
-  .arrow {
-    background: none;
-    border: none;
-    font-size: 1.5em;
-    cursor: pointer;
-    padding: 10px;
-    color: #555;
+
+  .donate img {
+    width: 220px;
   }
-  .arrow:hover {
-    color: #000;
+}
+
+/* 🖥 Desktop */
+@media (min-width: 1025px) {
+  .donate h2 {
+    font-size: 28px;
   }
-  .left-arrow {
-    position: absolute;
-    left: 0px;
+
+  .donate img {
+    width: 260px;
   }
-  .right-arrow {
-    position: absolute;
-    right: 0;
-  }
-  .testimonial-dots {
-    text-align: center;
-    margin-top: 15px;
-  }
-  .dot {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  .dot.active {
-    background-color: #717171;
-  }
-  
-  @media (max-width: 768px) {
-    .testimonial-slider{
-      padding: 30px;
-    }
-    .testimonial-slider h2 {
-      font-size: 1.5em;
-    }
-  
-    .testimonial-slider h4 {
-      font-size: 1em;
-    }
-  
-    .testimonial-content p {
-      font-size: 1em;
-    }
-  
-    .arrow {
-      font-size: 1em;
-    }
-    .left-arrow{
-        left:0px;
-    }
-    .testimonial-content img {
-      width: 80px;
-      height: 80px;
-    }
-  }
-  @media (max-width: 480px) {
-    .testimonial-slider {
-      padding: 10px;
-    }
-  
-    .testimonial-slider h2 {
-      font-size: 1.2em;
-    }
-  
-    .testimonial-slider h4 {
-      font-size: 0.8em;
-    }
-  
-    .testimonial-content p {
-      font-size: 0.8em;
-    }
-  
-    .arrow {
-      font-size: 1em;
-    }
-  
-    .testimonial-content img {
-      width: 70px;
-      height: 70px;
-    }
-  }
+}

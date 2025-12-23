@@ -1,13 +1,10 @@
 import React from 'react'
 import s_image1 from '../saraswatiPuja/images/img-1.jpg';
 import s_image2 from '../saraswatiPuja/images/img-2.jpg'
-import s_image3 from '../saraswatiPuja/images/img-3.jpg'
 import s_image4 from '../saraswatiPuja/images/img-4.jpg'
 import s_image5 from '../saraswatiPuja/images/img-5.jpg'
 import s_image6 from '../saraswatiPuja/images/img-6.jpg'
-import s_image7 from '../saraswatiPuja/images/img-7.jpg'
-import s_image8 from '../saraswatiPuja/images/img-8.jpg'
-import s_image9 from '../saraswatiPuja/images/img-9.jpg'
+import s_image19 from '../saraswatiPuja/images/img-19.jpeg'
 
 import { Link } from 'react-router-dom';
 import './SPojaImages.css';
@@ -27,10 +24,6 @@ const SPojaImages = () => {
             </div>
 
             <div className='spojaImage-main'>
-                <img src={s_image3} alt=''/>
-            </div>
-
-            <div className='spojaImage-main'>
                 <img src={s_image4} alt=''/>
             </div>
 
@@ -43,16 +36,9 @@ const SPojaImages = () => {
             </div>
 
             <div className='spojaImage-main'>
-                <img src={s_image7} alt=''/>
+                <img src={s_image19} alt=''/>
             </div>
 
-            <div className='spojaImage-main'>
-                <img src={s_image8} alt=''/>
-            </div>
-
-            <div className='spojaImage-main'>
-                <img src={s_image9} alt=''/>
-            </div>
             
         </div>
         <Link to='/news'>Back</Link>
