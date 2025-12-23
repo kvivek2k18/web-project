@@ -20,7 +20,7 @@ const CampaingnsDetails = () => {
               These campaigns are designed to engage audiences, build support, and drive participation or viewership.
             </p>
             <div className='campaingns_main'>
-                <span>Date: 12 April 2024</span>
+                <span>Date: 26 April 2025</span>
                 <div className='campaingns_img'>
                     <img src={c_Img1} alt=''/>
                 </div>

@@ -17,8 +17,7 @@ const SPojaDetails = () => {
             <p>
               MAA hosted its first grand and marvelous Saraswati Pooja on February 2nd. The pooja was conducted entirely by children, who fasted, chanted all the mantras, and performed the rituals with devotion and precision. It was a deeply enriching experience for them, as they had the opportunity to witness and engage with our Hindu culture firsthand.
               This event would not have been possible without our dedicated volunteers, and the best part was that the majority of them were children. What a wonderful way to honor Maa Saraswati! A heartfelt appreciation goes out to all the volunteers who participated in prasad preparation (buniya), decoration, organizing children's activities (kite flying and the drawing competition), and much more. 
-              A big round of applause to our guru, Ajit Jha Ji, for taking the initiative to make the pooja both enjoyable and memorable for the children. He has truly instilled a deep sense of cultural pride in their hearts.
-             Last but not least, a sincere thank you to our new and continuing members. Your support is the foundation of our success. Thank you to each and every one of you for joining us and making this event a grand success!
+              Thank you to each and every one of you for joining us and making this event a grand success!
             </p>
             <div className='spoja_main'>
                 <span>Date: 2 Febuary 2025</span>

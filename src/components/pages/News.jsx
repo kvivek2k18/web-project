@@ -1,15 +1,16 @@
 import React from 'react';
 import Spuja_img from '../saraswatiPuja/images/img-10.jpg'
-import camp_img from '../campaingns/campaingnsImage/img-8.jpg';
+import camp_img from '../campaingns/campaingnsImage/img-5.jpg';
 import piknic_img from '../piknic/picknicImage/img-1.jpg';
 import summer_img from '../summer/summerImage/img-6.jpg';
-import diwali_img from '../diwali/diwaliImages/diwali_img.jpg';
+import diwali_img from '../diwali/diwaliImages/Img-1.jpg';
 import yoga_img from '../yoga/yogaImages/img-5.jpg';
 import speechCompetion_img from '../SpeechCompetition/SpeechCompetitionImage/img-1.jpg';
 import mission_img from '../MissionPeak/MissionPeakImages/Hiking8.jpg';
 import wildFire_img from '../WildFire/wildFireImage/Img-4.jpg';
 import sacred_img from '../Sacred/SacredImages/Img-5.jpg';
 import cele_img from '../Celebrities/celebritiesImages/Img-2.jpg';
+import diwali_img24 from '../diwali24/diwaliImages/img-6.jpg';
 import './News.css';
 import { Link } from 'react-router-dom';
 import Footer from '../Footer';
@@ -18,7 +19,7 @@ const News = () => {
     <>
       <div className='news_section'>
         <h2>Past Events</h2>
-        <h3>Every Child Deserves The Opportunity To Learn</h3>
+        <h3>Past Events Organized by MAA</h3>
         <div className='container'>
 
           <div className='features'>
@@ -39,7 +40,7 @@ const News = () => {
 
 
          <div className='features'>
-            <h1>Diwali</h1>
+            <h1>Diwali 2025</h1>
             <p>
              Another fantastic and memorable Diwali Party hosted by MAA! MAA would like to extend its 
              heartfelt gratitude and thanks to everyone who participated. From the Maithili Naatak and the kids’ 
@@ -78,19 +79,33 @@ const News = () => {
 
 
           <div className='features'>
-            <h1>Saraswati Puja</h1>
+            <h1>Maa Foundation Day</h1>
             <p>
-              MAA hosted its first grand and marvelous Saraswati Pooja on February 2nd. 
-              The pooja was conducted entirely by children, who fasted, chanted all the mantras, 
-              and performed the rituals with devotion and precision. It was a deeply enriching experience for them, 
-              as they had the opportunity to witness and engage with our Hindu culture firsthand.
-              This event would not have been possible without our dedicated volunteers, 
-              and the best part was that the majority of them were children. What a wonderful way to honor Maa Saraswati! 
-              A heartfelt appreciation goes out to all the volunteers who participated in prasad preparation (buniya), decoration,
-               organizing children's activities (kite flying and the drawing competition), and much more. 
-              A big round of applause to our guru, Ajit Jha Ji, 
-              for taking the initiative to make the pooja both enjoyable and memorable for the children. 
-              He has truly instilled a deep sense of cultural pride in their hearts.
+              MAA proudly celebrated its first year of existence. 
+              We are grateful to all the continuous members and new members who joined us. 
+              We also missed all the members who could not join us. We express our heartfelt 
+              gratitude to all members for their unwavering support, encouragement, and non-biased feedback. 
+              We are committed to preserving our culture and creating a platform for the younger generation. 
+              We kindly request your continued support. Jai MAA, Jai MAITHIL, JAI MITHILA.🙏🙏🙏
+            </p>
+            <div className='plan'>
+              <span className='raised'>Place: California, USA</span>
+              <span className='goal'>Date: 26 April 2025</span>
+            </div>
+            <img src={camp_img} alt='' />
+            <div className='features_btn'>
+              <Link to='/campaingnsDetails' className='readmore'>SHOW DETAILS</Link>
+              <Link to='/campaingnsImages' className='donate'>MORE IMAGES</Link>
+            </div>
+          </div>
+
+
+          <div className='features'>
+            <h1>Saraswati Puja 2025</h1>
+            <p>
+             MAA hosted its first grand and marvelous Saraswati Pooja on February 2nd. The pooja was conducted entirely by children, who fasted, chanted all the mantras, and performed the rituals with devotion and precision. It was a deeply enriching experience for them, as they had the opportunity to witness and engage with our Hindu culture firsthand.
+              This event would not have been possible without our dedicated volunteers, and the best part was that the majority of them were children. What a wonderful way to honor Maa Saraswati! A heartfelt appreciation goes out to all the volunteers who participated in prasad preparation (buniya), decoration, organizing children's activities (kite flying and the drawing competition), and much more. 
+              Thank you to each and every one of you for joining us and making this event a grand success!
             
             </p>
             <div className='plan'>
@@ -135,7 +150,7 @@ const News = () => {
               <span className='raised'>Place: California, USA</span>
               <span className='goal'>Date: 26 October 2024</span>
             </div>
-            <img src={diwali_img} alt='' />
+            <img src={diwali_img24} alt='' />
             <div className='features_btn'>
               <Link to='/diwaliDetails24' className='readmore'>SHOW DETAILS</Link>
               <Link to='/diwaliImages24' className='donate'>MORE IMAGES</Link>
@@ -161,7 +176,7 @@ const News = () => {
 
 
           <div className='features'>
-            <h1>Celebrities</h1>
+            <h1>Meet & Greet with Kavi Shambhu Shikhar</h1>
             <p>
               MAA, successfully hosted celebrities Kavi Shambhu Shikhar Ji and Kavi Arun Gemini Ji in California during their US trip.
                It was an extremely enjoyable and enlightening experience to hear their perspectives on the US lifestyle, 
@@ -235,22 +250,7 @@ const News = () => {
           </div>
 
 
-          <div className='features'>
-            <h1>Campaingn & Sports</h1>
-            <p>
-              Campaigns in the context of sports can refer to a variety of organized efforts aimed at promoting a cause, event, team, or athlete.
-              These campaigns are designed to engage audiences, build support, and drive participation or viewership.
-            </p>
-            <div className='plan'>
-              <span className='raised'>Place: California, USA</span>
-              <span className='goal'>Date: 12 April 2024</span>
-            </div>
-            <img src={camp_img} alt='' />
-            <div className='features_btn'>
-              <Link to='/campaingnsDetails' className='readmore'>SHOW DETAILS</Link>
-              <Link to='/campaingnsImages' className='donate'>MORE IMAGES</Link>
-            </div>
-          </div>
+          
 
 
            

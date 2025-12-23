@@ -4,8 +4,10 @@ import diwali_img1 from '../diwali/diwaliImages/Img-1.jpg';
 import diwali_img2 from '../diwali/diwaliImages/Img-2.jpg';
 import diwali_img3 from '../diwali/diwaliImages/Img-3.jpg';
 import diwali_img4 from '../diwali/diwaliImages/Img-4.jpg';
-import diwali_img5 from '../diwali/diwaliImages/Img-7.jpg';
-import diwali_img6 from '../diwali/diwaliImages/Img-8.jpg';
+import diwali_img5 from '../diwali/diwaliImages/img-5.jpg';
+import diwali_img6 from '../diwali/diwaliImages/img-6.jpg';
+import diwali_img7 from '../diwali/diwaliImages/Img-7.jpg';
+import diwali_img8 from '../diwali/diwaliImages/Img-8.jpg';
 import './DiwaliDetails.css';
 import Footer from '../Footer';
 
@@ -46,6 +48,18 @@ const DiwaliDetails = () => {
 
                  <div className='diwali_img'>
                     <img src={diwali_img6} alt=''/>
+                </div>
+
+                <div className='diwali_img'>
+                    <img src={diwali_img7} alt=''/>
+                </div>
+
+                <div className='diwali_img'>
+                    <img src={diwali_img8} alt=''/>
+                </div>
+
+                 <div className='diwali_img'>
+                    <img src={diwali_img4} alt=''/>
                 </div>
             </div>
             <Link to='/news'>Back</Link>

@@ -9,10 +9,10 @@ const Donate = () => {
           <div className='donate'>
             <h2>Contribute to MAA</h2>
             <p>
-              We are here to assist you! if you have questions or feedback or need support, please Contribute to MAA.
+              Please Contribute to MAA.
             </p>
             <p>
-              You can donate via Zelle: maithilformithila@gmail.com or You can donate via QR Code
+              You can donate via Zelle: maithilformithila@gmail.com or also You can donate via Zelle QR Code
             </p>
              <img src={QR_image} alt=''/>
           </div>
